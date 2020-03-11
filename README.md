@@ -8,74 +8,43 @@ Use any python IDE to open the project. I personally use Spyder from Anaconda.Yo
 * [Anaconda](https://www.anaconda.com/distribution/) - The Data Science Platform for Python/R
 * [Spyder](https://www.spyder-ide.org/) - The Scientific Python Development Environment
 
-### Installing
+### Installation
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Before running the program, type the following command to install the libraries that the project depends on
 
 ```
-Give the example
+pip install numpy, pandas, matplotlib, sklearn, tensorflow
 ```
-
-And repeat
+Or simply type the following:
 
 ```
-until finished
+pip install -r requirements.txt
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+The description of each function is located on top of them. Please read them before running for clarity.
 
-### Break down into end to end tests
+To be continued ...
 
-Explain what these tests test and why
 
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Download any stock price charts from online (Ex: Kaggle) and insert the data to the model in order to test its accuracy.
+* [Kaggle](https://www.kaggle.com/) - The Machine Learning and Data Science Community
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Python](https://www.python.org/) - The Programming Language
+* [Tensorflow](https://www.tensorflow.org/) - The end-to-end open source machine learning platform
 
-## Contributing
+## Author
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **CSY** - [csy0522](https://github.com/csy0522)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
-## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
